@@ -1,0 +1,348 @@
+
+three_ring_assets.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+
+three_ring_assets.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 1
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 48
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 2
+gfx/threerings-copy
+  rotate: false
+  xy: 79, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 3
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 4
+gfx/threerings-copy
+  rotate: false
+  xy: 79, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 5
+gfx/threerings-copy
+  rotate: false
+  xy: 156, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 6
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 7
+gfx/threerings-copy
+  rotate: false
+  xy: 79, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 8
+gfx/threerings-copy
+  rotate: false
+  xy: 156, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 9
+gfx/threerings-copy
+  rotate: false
+  xy: 233, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 10
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 11
+gfx/threerings-copy
+  rotate: false
+  xy: 79, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 12
+gfx/threerings-copy
+  rotate: false
+  xy: 156, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 13
+gfx/threerings-copy
+  rotate: false
+  xy: 233, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 14
+gfx/threerings-copy
+  rotate: false
+  xy: 310, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 15
+gfx/threerings-copy
+  rotate: false
+  xy: 2, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 16
+gfx/threerings-copy
+  rotate: false
+  xy: 79, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 17
+gfx/threerings-copy
+  rotate: false
+  xy: 156, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 18
+gfx/threerings-copy
+  rotate: false
+  xy: 233, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 19
+gfx/threerings-copy
+  rotate: false
+  xy: 310, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 20
+gfx/threerings-copy
+  rotate: false
+  xy: 387, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 21
+gfx/threerings-copy
+  rotate: false
+  xy: 79, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 22
+gfx/threerings-copy
+  rotate: false
+  xy: 156, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 23
+gfx/threerings-copy
+  rotate: false
+  xy: 233, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 24
+gfx/threerings-copy
+  rotate: false
+  xy: 310, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 25
+gfx/threerings-copy
+  rotate: false
+  xy: 387, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 26
+gfx/threerings-copy
+  rotate: false
+  xy: 464, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 27
+gfx/threerings-copy
+  rotate: false
+  xy: 156, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 28
+gfx/threerings-copy
+  rotate: false
+  xy: 233, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 29
+gfx/threerings-copy
+  rotate: false
+  xy: 310, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 30
+gfx/threerings-copy
+  rotate: false
+  xy: 387, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 31
+gfx/threerings-copy
+  rotate: false
+  xy: 464, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 32
+gfx/threerings-copy
+  rotate: false
+  xy: 541, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 33
+gfx/threerings-copy
+  rotate: false
+  xy: 233, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 34
+gfx/threerings-copy
+  rotate: false
+  xy: 310, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 35
+gfx/threerings-copy
+  rotate: false
+  xy: 387, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 36
+gfx/threerings-copy
+  rotate: false
+  xy: 464, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 37
+gfx/threerings-copy
+  rotate: false
+  xy: 541, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 38
+gfx/threerings-copy
+  rotate: false
+  xy: 618, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 39
+gfx/threerings-copy
+  rotate: false
+  xy: 310, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 40
+gfx/threerings-copy
+  rotate: false
+  xy: 387, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 41
+gfx/threerings-copy
+  rotate: false
+  xy: 464, 156
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 42
+gfx/threerings-copy
+  rotate: false
+  xy: 541, 233
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 43
+gfx/threerings-copy
+  rotate: false
+  xy: 618, 310
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 44
+gfx/threerings-copy
+  rotate: false
+  xy: 695, 387
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 45
+gfx/threerings-copy
+  rotate: false
+  xy: 387, 2
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 46
+gfx/threerings-copy
+  rotate: false
+  xy: 464, 79
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: 47
