@@ -20,18 +20,22 @@ public class MyGdxGame extends ApplicationAdapter {
     private Viewport view;
     private SpriteBatch batch;
     private AnimatedSprite umberella;
-    private BonusSprite bp;
+    private BonusSprite jump, close;
     private float animationTime;
 	@Override
 	public void create () {
 		camera = new OrthographicCamera();
 		view = new FitViewport(800,600,camera);
 		batch = new SpriteBatch();
-		Texture small = new Texture(Gdx.files.internal("gfx/smallSize.png"));
-		Texture medium = new Texture(Gdx.files.internal("gfx/mediumSize.png"));
-        bp = new BonusSprite("gfx/Umbrella/UmJump_assets.atlas",medium,
-                new Vector2(Constants.SCENE_WIDTH/2,Constants.SCENE_HEIGHT/2), Animation.PlayMode.LOOP);
-        bp.destroyRoutine();
+		Texture small = new Texture(Gdx.files.internal("gfx/pixelSky.png"));
+		Texture medium = new Texture(Gdx.files.internal("gfx/pixelSky.png")); // tried to add own image for background
+        jump = new BonusSprite("gfx/Umbrella/UmJump_assets.atlas",medium, // added my sprite animation
+                new Vector2(Constants.SCENE_WIDTH/2,Constants.SCENE_HEIGHT/2), Animation.PlayMode.LOOP); // idle animation
+		close = new BonusSprite("gfx/UmDestroy/CloseUm_assets.atlas",medium,
+				new Vector2(Constants.SCENE_WIDTH/2, Constants.SCENE_HEIGHT/2), Animation.PlayMode.LOOP); // activated animation
+
+        jump.idleRoutine();
+		close.activeRoutine();
 	}
 	@Override
 	public void render () {
@@ -40,8 +44,10 @@ public class MyGdxGame extends ApplicationAdapter {
         animationTime +=Gdx.graphics.getDeltaTime();
         UniversalResource.getInstance().tweenManager.update(animationTime);
         batch.begin();
-        bp.update(animationTime);
-        bp.draw(batch);
+        jump.update(animationTime);
+        jump.draw(batch);
+		close.update(animationTime);
+		close.draw(batch);
 		batch.end();
 	}
 	@Override

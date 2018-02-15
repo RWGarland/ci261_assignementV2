@@ -1,0 +1,118 @@
+
+CloseUm_assets.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+CloseUm
+  rotate: false
+  xy: 2, 117
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: 1
+CloseUm
+  rotate: false
+  xy: 2, 2
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: 3
+CloseUm
+  rotate: false
+  xy: 117, 117
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: 9
+CloseUm
+  rotate: false
+  xy: 117, 2
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: 11
+CloseUm
+  rotate: false
+  xy: 232, 117
+  size: 112, 113
+  orig: 112, 113
+  offset: 0, 0
+  index: 2
+CloseUm
+  rotate: false
+  xy: 232, 2
+  size: 112, 113
+  orig: 112, 113
+  offset: 0, 0
+  index: 4
+CloseUm
+  rotate: false
+  xy: 346, 118
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: 5
+CloseUm
+  rotate: false
+  xy: 346, 4
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: 7
+CloseUm
+  rotate: false
+  xy: 461, 117
+  size: 112, 113
+  orig: 112, 113
+  offset: 0, 0
+  index: 10
+CloseUm
+  rotate: false
+  xy: 575, 117
+  size: 112, 113
+  orig: 112, 113
+  offset: 0, 0
+  index: 12
+CloseUm
+  rotate: false
+  xy: 689, 118
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: 13
+CloseUm
+  rotate: false
+  xy: 804, 118
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: 15
+CloseUm
+  rotate: false
+  xy: 461, 3
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: 6
+CloseUm
+  rotate: false
+  xy: 575, 3
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: 8
+CloseUm
+  rotate: false
+  xy: 689, 4
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: 14
+CloseUm
+  rotate: false
+  xy: 803, 4
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: 16

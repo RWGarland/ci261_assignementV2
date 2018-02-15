@@ -10,7 +10,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		//config.height = 320;
 		//config.width = 240;
-	//	TexturePacker.process("../assets/gfx/Umbrella", "../assets/gfx/Umbrella","UmJump_assets");
+	   // TexturePacker.process("../assets/gfx/UmDestroy", "../assets/gfx/UmDestroy","CloseUm_assets");
 		new LwjglApplication(new MyGdxGame(), config);
 	}
 }

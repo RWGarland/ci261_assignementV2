@@ -54,12 +54,21 @@ public class BonusSprite extends AnimatedSprite {
         this.setRotation(tweenData.getRotation());
     }
 
-    public void destroyRoutine(){
+    public void idleRoutine(){
         Tween.to(tweenData, TweenDataAccessor.TYPE_POS,0f)
-                .target(200,100).start(tweenManager).to(tweenData, TweenDataAccessor.TYPE_ROTATION,250f)
+                .target(300,100).start(tweenManager).to(tweenData, TweenDataAccessor.TYPE_ROTATION,250f)
               //  .target(180).start().start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_SCALE,250f)
-              // .target(.15f).start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_COLOUR,500f)
+               // .target(.15f).start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_COLOUR,500f)
+                .target(.15f,.15f,.15f,.0f).start(tweenManager);
+
+        }
+
+    public void activeRoutine() {
+        Tween.to(tweenData, TweenDataAccessor.TYPE_POS,0f)
+                .target(100,100).start(tweenManager).to(tweenData, TweenDataAccessor.TYPE_ROTATION,0f)
+                //  .target(180).start().start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_SCALE,250f)
+                 .target(.15f).start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_COLOUR,40f)
                 .target(.15f,.15f,.15f,.0f).start(tweenManager);
         soundLink.play(1);
-        }
+    }
 }
