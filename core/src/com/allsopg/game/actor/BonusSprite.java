@@ -55,10 +55,10 @@ public class BonusSprite extends AnimatedSprite {
     }
 
     public void destroyRoutine(){
-        Tween.to(tweenData, TweenDataAccessor.TYPE_POS,250f)
+        Tween.to(tweenData, TweenDataAccessor.TYPE_POS,0f)
                 .target(200,100).start(tweenManager).to(tweenData, TweenDataAccessor.TYPE_ROTATION,250f)
-                .target(180).start().start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_SCALE,250f)
-                .target(.15f).start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_COLOUR,500f)
+              //  .target(180).start().start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_SCALE,250f)
+              // .target(.15f).start(tweenManager).to(tweenData,TweenDataAccessor.TYPE_COLOUR,500f)
                 .target(.15f,.15f,.15f,.0f).start(tweenManager);
         soundLink.play(1);
         }
